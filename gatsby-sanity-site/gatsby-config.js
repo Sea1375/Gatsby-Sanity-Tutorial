@@ -29,6 +29,14 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
+    {
+      resolve: 'gatsby-source-sanity',
+      options: {
+        projectId: 'dsaju8sa',
+        dataset: 'production',
+        watchMode: true,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
